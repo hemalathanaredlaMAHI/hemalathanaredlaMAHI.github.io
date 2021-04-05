@@ -1,0 +1,92 @@
+h1{
+  
+  color:navy;
+  font-family: sans-serif;
+}
+h2{
+  background-color: ghostwhite;
+  font-family: sans-serif;
+  color: navy;
+}
+a:hover,
+            a:active {
+            background-color:turquoise;
+            }
+ 
+a{
+color: navy;
+text-decoration:none;
+font-size:20px;
+}
+
+body {  
+  background-color:darkturquoise; 
+  border-color: black;  
+  border-width: 5px;  
+  border-style: inset;  
+  }  
+.row {
+    margin: 5px;
+    color:navy;
+    font-family: sans-serif;
+  }
+  .row,
+  .row > .column {
+    padding: 5px;
+    
+  }
+  .column {
+    float: left;
+    width:24%;
+
+    font-family: sans-serif;
+  }
+  
+ 
+  .content {
+    background-color:ghostwhite;
+    padding: 10px;
+    color:navy;
+ font-family: sans-serif;
+  }
+ ol,ul,p,h3{
+  font-size: 20px;
+  font-family:cursive;
+}
+#a1{
+color:black;
+}
+
+button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+button:hover {
+  background-color: #008CBA;
+  color:white;
+}
+#a2{
+color: black;
+text-decoration:none;
+font-size:20px;
+}
+h3{
+color:navy;
+}
+@media print and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  @media print and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: lightblue;
+  }
+}
