@@ -4,14 +4,16 @@ h1,footer{
   font-family: sans-serif;
 }
 img{
-  border: 5px solid #555;
+  border: 5px solid black;
   width: 120px;
-  hight: 120px;
+  /* height: 120px; */
 }
 h2{
   background-color: ghostwhite;
   font-family: sans-serif;
   color: navy;
+  border-width: 10%;
+  border-radius: 4px;
 }
 
 a{
